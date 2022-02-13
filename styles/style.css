@@ -1,0 +1,128 @@
+/* CSS Global */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root {
+  --titulo: #34B0BE;
+  --gris: #D1CECA;
+  --azul-oscuro: #242635;
+  --blanco: #FFFFFF;
+  --fondo: #000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--fondo);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: var(--blanco);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.titulo {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.color-verde {
+  color: var(--titulo);
+}
+
+/* Fin CSS Global */
+
+/* CSS de menu */
+
+.menu {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 2.5rem;
+}
+
+.menu__items {
+  display: none;
+}
+
+/* Fin de menu */
+
+/* CSS de banner */
+
+.banner__foto--img {
+  width: 100%;
+}
+
+/* Fin de banner */
+
+/* CSS de about me */
+
+.principal__about-me--texto {
+  text-align: center;
+  color: rgb(158, 158, 158);
+  line-height: 1.5rem;
+}
+
+/* Fin de about me */
+
+/* CSS de services */
+
+.principal__services {
+  height: 90vh;
+  
+}
+
+.principal__service--cards {
+  display: flex;
+  align-items: center;
+}
+
+.principal__service--card {
+  background-color: var(--blanco);
+  background-image: url(../assets/images/Ellipse\ 14.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  width: 250px;
+  height: 310px;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.service__logo {
+  margin-top: 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service__titulo {
+  text-align: center;
+  color: #000000;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.service__texto {
+  text-align: center;
+  color: var(--gris);
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+/* Fin de services */
